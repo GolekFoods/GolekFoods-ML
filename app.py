@@ -9,7 +9,9 @@ from flask_cors import CORS
 
 # Loading model
 file = open('./model/nb_model.pkl', 'rb')
+file2 = open('./model/nb_model_adv.pkl', 'rb')
 model = joblib.load(file)
+model2 = joblib.load(file2)
 
 # Loading dataset
 gizi = pd.read_csv('./dataset/gizi.csv')
@@ -58,6 +60,38 @@ def predict():
     'recom':recommend(nama, 5, ['Nama Pangan', 'Energi', 'Protein', 'Lemak', 'Karbohidrat', 'Gambar']).to_dict(orient='records')})
 
 def recommend(nama, n=5, columns=None):
+    idx = gizi[gizi["Nama Pangan"] == nama].index[0]
+    sim_scores = list(enumerate(item_vectors.iloc[idx]))
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
+    sim_scores = sim_scores[1:n+1]
+    food_indices = [i[0] for i in sim_scores]
+    if columns is None:
+        return gizi.iloc[food_indices].reset_index(drop=True)
+    else:
+        return gizi[columns].iloc[food_indices].reset_index(drop=True)
+
+@app.route('/advpredict', methods=['POST'])
+def advpredict():
+    energi = request.json['energi']
+    protein = request.json['protein']
+    lemak = request.json['lemak']
+    karbohidrat = request.json['karbohidrat']
+    float_features = [energi, protein, lemak, karbohidrat]
+    features = [np.array(float_features)]
+    prediction = model2.predict(features)
+
+    data = gizi[gizi['Nama Pangan'] == prediction.item()]
+    nama = data['Nama Pangan'].values[0]
+    energi = data['Energi'].values[0]
+    protein = data['Protein'].values[0]
+    lemak = data['Lemak'].values[0]
+    karbohidrat = data['Karbohidrat'].values[0]
+    gambar = data['Gambar'].values[0]
+
+    return jsonify({'nama':nama, 'energi':str(energi), 'protein':str(protein), 'lemak':str(lemak), 'karbohidrat':str(karbohidrat), 'gambar':gambar,
+    'recom':advrecommend(nama, 5, ['Nama Pangan', 'Energi', 'Protein', 'Lemak', 'Karbohidrat', 'Gambar']).to_dict(orient='records')})
+
+def advrecommend(nama, n=5, columns=None):
     idx = gizi[gizi["Nama Pangan"] == nama].index[0]
     sim_scores = list(enumerate(item_vectors.iloc[idx]))
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
