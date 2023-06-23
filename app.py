@@ -58,14 +58,11 @@ def predict():
     gambar = data['Gambar'].values[0]
 
     recom = recommend(nama)
-    recom_data = [
-        {'id_recom':'1', 'id_food':str(id), 'nama':nama, 'energi':str(energi), 'protein':str(protein), 'lemak':str(lemak), 'karbohidrat':str(karbohidrat), 'gambar':gambar},
-        {'id_recom':'2', 'id_food':str(recom['Id'].values[0]), 'nama':recom['Nama Pangan'].values[0], 'energi':str(recom['Energi'].values[0]), 'protein':str(recom['Protein'].values[0]), 'lemak':str(recom['Lemak'].values[0]), 'karbohidrat':str(recom['Karbohidrat'].values[0]), 'gambar':recom['Gambar'].values[0]},
-        {'id_recom':'3', 'id_food':str(recom['Id'].values[1]), 'nama':recom['Nama Pangan'].values[1], 'energi':str(recom['Energi'].values[1]), 'protein':str(recom['Protein'].values[1]), 'lemak':str(recom['Lemak'].values[1]), 'karbohidrat':str(recom['Karbohidrat'].values[1]), 'gambar':recom['Gambar'].values[1]},
-        {'id_recom':'4', 'id_food':str(recom['Id'].values[2]), 'nama':recom['Nama Pangan'].values[2], 'energi':str(recom['Energi'].values[2]), 'protein':str(recom['Protein'].values[2]), 'lemak':str(recom['Lemak'].values[2]), 'karbohidrat':str(recom['Karbohidrat'].values[2]), 'gambar':recom['Gambar'].values[2]},
-        {'id_recom':'5', 'id_food':str(recom['Id'].values[3]), 'nama':recom['Nama Pangan'].values[3], 'energi':str(recom['Energi'].values[3]), 'protein':str(recom['Protein'].values[3]), 'lemak':str(recom['Lemak'].values[3]), 'karbohidrat':str(recom['Karbohidrat'].values[3]), 'gambar':recom['Gambar'].values[3]},
-        {'id_recom':'6', 'id_food':str(recom['Id'].values[4]), 'nama':recom['Nama Pangan'].values[4], 'energi':str(recom['Energi'].values[4]), 'protein':str(recom['Protein'].values[4]), 'lemak':str(recom['Lemak'].values[4]), 'karbohidrat':str(recom['Karbohidrat'].values[4]), 'gambar':recom['Gambar'].values[4]}
-    ]
+    recom_data = []
+    n = 1
+    recom_data.append({'id_recom': str(n), 'id_food':str(id), 'nama':nama, 'energi':str(energi), 'protein':str(protein), 'lemak':str(lemak), 'karbohidrat':str(karbohidrat), 'gambar':gambar})
+    for i in range(len(recom)):
+        recom_data.append({'id_recom':str(n+1), 'id_food':str(recom['Id'].values[i]), 'nama':recom['Nama Pangan'].values[i], 'energi':str(recom['Energi'].values[i]), 'protein':str(recom['Protein'].values[i]), 'lemak':str(recom['Lemak'].values[i]), 'karbohidrat':str(recom['Karbohidrat'].values[i]), 'gambar':recom['Gambar'].values[i]})
 
     return jsonify({'data':recom_data})
 
@@ -100,15 +97,11 @@ def advpredict():
     gambar = data['Gambar'].values[0]
 
     recom = advrecommend(nama)
-
-    recom_data = [
-        {'id_recom':'1', 'id_food':str(id), 'nama':nama, 'energi':str(energi), 'protein':str(protein), 'lemak':str(lemak), 'karbohidrat':str(karbohidrat), 'gambar':gambar},
-        {'id_recom':'2', 'id_food':str(recom['Id'].values[0]), 'nama':recom['Nama Pangan'].values[0], 'energi':str(recom['Energi'].values[0]), 'protein':str(recom['Protein'].values[0]), 'lemak':str(recom['Lemak'].values[0]), 'karbohidrat':str(recom['Karbohidrat'].values[0]), 'gambar':recom['Gambar'].values[0]},
-        {'id_recom':'3', 'id_food':str(recom['Id'].values[1]), 'nama':recom['Nama Pangan'].values[1], 'energi':str(recom['Energi'].values[1]), 'protein':str(recom['Protein'].values[1]), 'lemak':str(recom['Lemak'].values[1]), 'karbohidrat':str(recom['Karbohidrat'].values[1]), 'gambar':recom['Gambar'].values[1]},
-        {'id_recom':'4', 'id_food':str(recom['Id'].values[2]), 'nama':recom['Nama Pangan'].values[2], 'energi':str(recom['Energi'].values[2]), 'protein':str(recom['Protein'].values[2]), 'lemak':str(recom['Lemak'].values[2]), 'karbohidrat':str(recom['Karbohidrat'].values[2]), 'gambar':recom['Gambar'].values[2]},
-        {'id_recom':'5', 'id_food':str(recom['Id'].values[3]), 'nama':recom['Nama Pangan'].values[3], 'energi':str(recom['Energi'].values[3]), 'protein':str(recom['Protein'].values[3]), 'lemak':str(recom['Lemak'].values[3]), 'karbohidrat':str(recom['Karbohidrat'].values[3]), 'gambar':recom['Gambar'].values[3]},
-        {'id_recom':'6', 'id_food':str(recom['Id'].values[4]), 'nama':recom['Nama Pangan'].values[4], 'energi':str(recom['Energi'].values[4]), 'protein':str(recom['Protein'].values[4]), 'lemak':str(recom['Lemak'].values[4]), 'karbohidrat':str(recom['Karbohidrat'].values[4]), 'gambar':recom['Gambar'].values[4]}
-    ]
+    recom_data = []
+    n = 1
+    recom_data.append({'id_recom': str(n), 'id_food':str(id), 'nama':nama, 'energi':str(energi), 'protein':str(protein), 'lemak':str(lemak), 'karbohidrat':str(karbohidrat), 'gambar':gambar})
+    for i in range(len(recom)):
+        recom_data.append({'id_recom':str(n+1), 'id_food':str(recom['Id'].values[i]), 'nama':recom['Nama Pangan'].values[i], 'energi':str(recom['Energi'].values[i]), 'protein':str(recom['Protein'].values[i]), 'lemak':str(recom['Lemak'].values[i]), 'karbohidrat':str(recom['Karbohidrat'].values[i]), 'gambar':recom['Gambar'].values[i]})
 
     return jsonify({'data':recom_data})
 
@@ -125,3 +118,4 @@ def advrecommend(nama, n=5, columns=['Id', 'Nama Pangan', 'Energi', 'Protein', '
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
+    
