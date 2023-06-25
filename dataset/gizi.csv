@@ -1,6 +1,6 @@
-Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
+id_food,energi,protein,lemak,karbohidrat,nama,gambar
 1,360,6.8,0.7,78.9,Beras Giling,https://images.pexels.com/photos/4187621/pexels-photo-4187621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-2,178,2.1,0.1,40.6,Beras Giling masak (nasi) ,https://e0.pxfuel.com/wallpapers/769/103/desktop-wallpaper-white-rice-rice-bowl.jpg
+2,178,2.1,0.1,40.6,"Beras Giling masak (nasi) ",https://e0.pxfuel.com/wallpapers/769/103/desktop-wallpaper-white-rice-rice-bowl.jpg
 3,356,7,0.7,78,Beras Ketan Hitam,https://img.herstory.co.id/articles/archive_20211203/beras-hitam-20211203-092358.jpg
 4,181,4,1.2,37.3,Beras Ketan Hitam kukus,https://img.freepik.com/free-photo/purple-rice-berries-cooked-wooden-dish-with-mint-leaves_1150-19858.jpg?w=1060&t=st=1683884169~exp=1683884769~hmac=cbae358960d57fe16933cd26ccb63b1353dd59576d26b5334b0f7a9f732a4539
 5,166,3.8,1,34.4,Beras Ketan Hitam tape,https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/5/19/6313260c-769d-4875-a3b2-ab4681eff412.jpg
@@ -520,95 +520,95 @@ Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
 519,126,1.1,2.2,25.7,Tempuyak,https://down-id.img.susercontent.com/file/ae41014cc406b3192238f3c70b27ab96
 520,316,60.1,6.5,22.4,Tepung Ikan,https://unair.ac.id/wp-content/uploads/2021/05/Ilustrasi-oleh-Solusiternak-ID.jpg
 521,102.9,3.3,2.7,16.3,Bacang,https://cdn1-production-images-kly.akamaized.net/dmeIqjoEQPYVHvwOwc32D8B7EcI=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1495067/original/082497700_1486023784-bacang-fsui_wodpress.jpg
-522,76,4.1,2.5,9.2,Bakso ,https://asset.kompas.com/crops/x6OULHa8pMi47UnvDTzf1j62ov4=/3x0:700x465/750x500/data/photo/2022/08/25/6306b48bb80a1.jpeg
-523,272.5,4.3,18.8,21.8,Bakwan ,https://asset.kompas.com/crops/wG2LGEL9k921qsHuSr-Qile6m0o=/0x0:0x0/750x500/data/photo/2020/04/25/5ea421e5c5358.jpeg
-524,154,3,4.5,25.5,Bihun Goreng ,https://img.kurio.network/ZxAfF4qJQbpTcsTwVZ5fxE-8_no=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/10/17/f29f0fe9-7b93-498a-a6fe-2e0abc82e509.jpe
-525,225.7,3,0.3,52.9,Bika Ambon ,https://kurio-img.kurioapps.com/21/08/09/550ddc82-8004-49fe-a427-197fead4eec3.jpe
-526,400,4,0.7,95.3,Brondong ,https://cdn.idntimes.com/content-images/community/2020/07/lg-k15522919710053-2-25e6aa2e5c1611522cabcd2dad7de10f.jpg
-527,60,1,60,13,Bubur ,https://awsimages.detik.net.id/community/media/visual/2021/12/13/resep-bubur-ayam-cincang_43.jpeg?w=1200
-528,106,4.4,6.3,7.9,Buntil ,https://asset.kompas.com/crops/vCayyRtg4fGtL3Y9EnpXrWr_TIw=/3x0:700x465/750x500/data/photo/2021/02/08/6020e623372b3.jpg
-529,125.7,3.3,1.9,23.9,Buras ,https://www.masakapahariini.com/wp-content/uploads/2022/06/resep-buras.jpg
-530,210,1.6,6.6,35.8,Combro ,https://assets.suaramerdeka.com/crop/7x38:699x495/750x500/webp/photo/2021/11/01/2899515089.jpg
-531,260,2,15,53,Deblo ,https://img-global.cpcdn.com/recipes/613bae93e873b173/680x482cq70/deblo-foto-resep-utama.jpg
-532,17.5,3.3,2.3,39.5,Dodonkol ,https://www.piknikdong.com/wp-content/uploads/2022/06/Resep-Awug-Sederhana.jpg
-533,156.7,3,1.7,32.7,Es Krim (Coconut milk) ,https://cdn.nutritioninthekitch.com/wp-content/uploads/2022/03/Coconut-ice-cream-5-800x1184.jpg
-534,152,0,0,37.6,Es Mambo ,https://www.masakapahariini.com/wp-content/uploads/2020/06/es-mambo.jpg
-535,44.8,0,0,11.3,Es Sirup ,"https://cdn.yummy.co.id/content-images/images/20220619/xfaVB26SMb4zm5RAt72MsKdSiArIkWyc-31363535363231363533d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/resize,w_388,h_388,m_fixed,x-oss-process=image/format,webp"
-536,135.3,5.8,5.8,16.4,Gado-gado ,https://img.kurio.network/rlKzeW_1_iLZ-JMm9fFHX-rGdIE=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/22/06/22/53264347-b7ba-4257-852d-04e3d1b4e4e5.jpe
-537,287.5,6.5,6.5,52.8,Gemblong ,https://asset.kompas.com/crops/EHYkHPwQlJhbPT6EYxBZq19kMeE=/0x0:968x645/750x500/data/photo/2022/03/14/622ed15d597aa.jpg
-538,171.4,4,4,32,Getuk Lindri ,https://asset-a.grid.id/crop/0x0:0x0/x/photo/2018/12/21/1509136869.jpg
-539,53,1.6,1.6,8.8,Gudeg ,https://cdn1-production-images-kly.akamaized.net/IpYTbngk7MSDqY-O2zh-l35oxxs=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/776636/original/012158200_1417956101-gudeg.jpg
-540,175,1.8,1.8,35,Jagung Rebus ,https://asset.kompas.com/crops/L0i8I7tD8bIDLcs9nVG_Ok9egfI=/0x0:1000x667/750x500/data/photo/2021/10/05/615b9e713eeda.jpg
-541,148.9,10.4,10.4,20.1,Jagung Sayur (tumis) ,https://ibusayur.my.id/wp-content/uploads/2022/08/ibusayur.my.id-sayur-nangka-51661b26-eb56-4072-8613-65cb6b4c2ecb.png
-542,381.7,9.5,9.5,65.8,Jenang ,https://cdn.idntimes.com/content-images/community/2022/01/fromandroid-fbaa0f050bd3678e2e78518c3020f9f9_600x400.jpg
-543,445,11,11,65.5,Kacang Kapri Goreng ,https://sc04.alicdn.com/kf/HTB1TBuVqKuSBuNjSsziq6zq8pXae.jpg
-544,488,25.6,25.6,59.6,Kacang Sukro Putih ,https://cdn1.productnation.co/stg/sites/5/5cbfb08983c9b.jpeg
-545,385,14,31,13,Kacang Tanah Rebus ,https://img-global.cpcdn.com/recipes/ff019c14f757cfbf/1200x630cq70/photo.jpg
-546,748,20.8,20.8,124.8,Kacang Telur ,https://img-global.cpcdn.com/recipes/18de1fa4c4094900/400x400cq70/photo.jpg
-547,146.7,5.9,5.9,19.7,Karedok ,https://asset.kompas.com/crops/szsUOraQ00vakiV0314KT6-71v8=/0x0:1000x667/750x500/data/photo/2021/07/07/60e56c9f60649.jpg
-548,292,11.2,11.2,2.8,Karoket ,https://img-global.cpcdn.com/recipes/3ac8414039a793c2/680x482cq70/karoket-indomie-foto-resep-utama.jpg
-549,214,5.4,5.4,40.2,Kelepon ,https://caramembuat.id/wp-content/uploads/2022/06/Cara-Membuat-Klepon-Ketan-Khas-Bali.webp
+522,76,4.1,2.5,9.2,"Bakso ",https://asset.kompas.com/crops/x6OULHa8pMi47UnvDTzf1j62ov4=/3x0:700x465/750x500/data/photo/2022/08/25/6306b48bb80a1.jpeg
+523,272.5,4.3,18.8,21.8,"Bakwan ",https://asset.kompas.com/crops/wG2LGEL9k921qsHuSr-Qile6m0o=/0x0:0x0/750x500/data/photo/2020/04/25/5ea421e5c5358.jpeg
+524,154,3,4.5,25.5,"Bihun Goreng ",https://img.kurio.network/ZxAfF4qJQbpTcsTwVZ5fxE-8_no=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/10/17/f29f0fe9-7b93-498a-a6fe-2e0abc82e509.jpe
+525,225.7,3,0.3,52.9,"Bika Ambon ",https://kurio-img.kurioapps.com/21/08/09/550ddc82-8004-49fe-a427-197fead4eec3.jpe
+526,400,4,0.7,95.3,"Brondong ",https://cdn.idntimes.com/content-images/community/2020/07/lg-k15522919710053-2-25e6aa2e5c1611522cabcd2dad7de10f.jpg
+527,60,1,60,13,"Bubur ",https://awsimages.detik.net.id/community/media/visual/2021/12/13/resep-bubur-ayam-cincang_43.jpeg?w=1200
+528,106,4.4,6.3,7.9,"Buntil ",https://asset.kompas.com/crops/vCayyRtg4fGtL3Y9EnpXrWr_TIw=/3x0:700x465/750x500/data/photo/2021/02/08/6020e623372b3.jpg
+529,125.7,3.3,1.9,23.9,"Buras ",https://www.masakapahariini.com/wp-content/uploads/2022/06/resep-buras.jpg
+530,210,1.6,6.6,35.8,"Combro ",https://assets.suaramerdeka.com/crop/7x38:699x495/750x500/webp/photo/2021/11/01/2899515089.jpg
+531,260,2,15,53,"Deblo ",https://img-global.cpcdn.com/recipes/613bae93e873b173/680x482cq70/deblo-foto-resep-utama.jpg
+532,17.5,3.3,2.3,39.5,"Dodonkol ",https://www.piknikdong.com/wp-content/uploads/2022/06/Resep-Awug-Sederhana.jpg
+533,156.7,3,1.7,32.7,"Es Krim (Coconut milk) ",https://cdn.nutritioninthekitch.com/wp-content/uploads/2022/03/Coconut-ice-cream-5-800x1184.jpg
+534,152,0,0,37.6,"Es Mambo ",https://www.masakapahariini.com/wp-content/uploads/2020/06/es-mambo.jpg
+535,44.8,0,0,11.3,"Es Sirup ","https://cdn.yummy.co.id/content-images/images/20220619/xfaVB26SMb4zm5RAt72MsKdSiArIkWyc-31363535363231363533d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/resize,w_388,h_388,m_fixed,x-oss-process=image/format,webp"
+536,135.3,5.8,5.8,16.4,"Gado-gado ",https://img.kurio.network/rlKzeW_1_iLZ-JMm9fFHX-rGdIE=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/22/06/22/53264347-b7ba-4257-852d-04e3d1b4e4e5.jpe
+537,287.5,6.5,6.5,52.8,"Gemblong ",https://asset.kompas.com/crops/EHYkHPwQlJhbPT6EYxBZq19kMeE=/0x0:968x645/750x500/data/photo/2022/03/14/622ed15d597aa.jpg
+538,171.4,4,4,32,"Getuk Lindri ",https://asset-a.grid.id/crop/0x0:0x0/x/photo/2018/12/21/1509136869.jpg
+539,53,1.6,1.6,8.8,"Gudeg ",https://cdn1-production-images-kly.akamaized.net/IpYTbngk7MSDqY-O2zh-l35oxxs=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/776636/original/012158200_1417956101-gudeg.jpg
+540,175,1.8,1.8,35,"Jagung Rebus ",https://asset.kompas.com/crops/L0i8I7tD8bIDLcs9nVG_Ok9egfI=/0x0:1000x667/750x500/data/photo/2021/10/05/615b9e713eeda.jpg
+541,148.9,10.4,10.4,20.1,"Jagung Sayur (tumis) ",https://ibusayur.my.id/wp-content/uploads/2022/08/ibusayur.my.id-sayur-nangka-51661b26-eb56-4072-8613-65cb6b4c2ecb.png
+542,381.7,9.5,9.5,65.8,"Jenang ",https://cdn.idntimes.com/content-images/community/2022/01/fromandroid-fbaa0f050bd3678e2e78518c3020f9f9_600x400.jpg
+543,445,11,11,65.5,"Kacang Kapri Goreng ",https://sc04.alicdn.com/kf/HTB1TBuVqKuSBuNjSsziq6zq8pXae.jpg
+544,488,25.6,25.6,59.6,"Kacang Sukro Putih ",https://cdn1.productnation.co/stg/sites/5/5cbfb08983c9b.jpeg
+545,385,14,31,13,"Kacang Tanah Rebus ",https://img-global.cpcdn.com/recipes/ff019c14f757cfbf/1200x630cq70/photo.jpg
+546,748,20.8,20.8,124.8,"Kacang Telur ",https://img-global.cpcdn.com/recipes/18de1fa4c4094900/400x400cq70/photo.jpg
+547,146.7,5.9,5.9,19.7,"Karedok ",https://asset.kompas.com/crops/szsUOraQ00vakiV0314KT6-71v8=/0x0:1000x667/750x500/data/photo/2021/07/07/60e56c9f60649.jpg
+548,292,11.2,11.2,2.8,"Karoket ",https://img-global.cpcdn.com/recipes/3ac8414039a793c2/680x482cq70/karoket-indomie-foto-resep-utama.jpg
+549,214,5.4,5.4,40.2,"Kelepon ",https://caramembuat.id/wp-content/uploads/2022/06/Cara-Membuat-Klepon-Ketan-Khas-Bali.webp
 550,475,1.6,25.5,64.4,Keremes,https://1.bp.blogspot.com/-7vUY82UReBs/WTbWbqEd68I/AAAAAAAAG4k/isry-Tn67FQgLbx5nqz5ZVhpQeAMHkaSACLcB/s1600/23-04-12-2863049_540b3cf5-8735-4432-9749-3805a501b746.jpg
-551,46.7,17.3,17.3,81.3,Kerupuk Sayong ,https://filebroker-cdn.lazada.co.id/kf/S92719a0bfec8443981796f166617e6eav.jpg
-552,340,30,30,52,Kerupuk Udang ,https://cdn0-production-images-kly.akamaized.net/ihQHCeKhKldhY8YlTDkiu0ObeqE=/261x0:928x667/1200x900/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3265798/original/012419700_1602564070-shutterstock_1736290877.jpg
-553,340,11,11,54,Ketapang ,https://cdn0-production-images-kly.akamaized.net/bEFvWpDkZsFCndvlKQ2liamvXwM=/0x287:3046x2004/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3989958/original/069432700_1649474910-biji_ketapang.jpg
-554,109.6,2.6,2.6,18.6,Ketupat Tahu ,https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/06/09/resep-kupat-tahu-menu-sarapan-n-20210609032448.jpg
-555,542,40.3,42.4,11.5,Kripik Tempe Goreng ,https://asset.kompas.com/crops/NvawKpjCGV6FrehArD0C-OBjYSI=/3x0:700x465/750x500/data/photo/2020/12/01/5fc629934653a.jpg
-556,186.7,1.6,1.6,39.6,Kue Apem ,https://cdn0-production-images-kly.akamaized.net/1vXhapwViv08dtFYbhhKKEfqiJ0=/0x542:4608x3139/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3479555/original/004272600_1623394884-shutterstock_1952418853.jpg
-557,240,1,4,54,Kue Bugis ,https://asset.kompas.com/crops/hHVyMg5BiDHITqTbKdbpz1Un4_c=/0x0:1000x667/750x500/data/photo/2022/06/21/62b109f77f78c.jpeg
-558,366,4.2,4.3,7.9,Kue Koya ,https://media.karousell.com/media/photos/products/2018/08/23/koya_kacang_suuk_asli_bandung_1535029115_863b9a71_progressive.jpg
-559,182,1,1,40.4,Kue mangkok ,https://asset.kompas.com/crops/EUNcgQqWtMLzjyycRK-jWqJPg5Q=/3x0:700x465/750x500/data/photo/2021/01/13/5ffe348f5e49a.jpg
-560,126.7,0.7,0.7,57.3,Kue Pacar Cina ,https://asset.kompas.com/crops/jkimxsmqIcyNJ_UjeHGJML9sT_4=/0x0:698x465/750x500/data/photo/2021/02/20/603069ab80f59.jpg
-561,296,1.4,1.4,66.4,Kue Pia ,https://www.resepkuerenyah.com/wp-content/uploads/2015/05/Resep-Kue-Pia-Kacang-Hijau.jpg
-562,393.3,2.7,2.7,79.3,Kue Satu ,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kue_satu_2.JPG/640px-Kue_satu_2.JPG
-563,380,1,1,92,Kue Semprong ,https://asset.kompas.com/crops/jT3TeOZw6jjDRXgh1-P9Yrz0enI=/0x0:1000x667/750x500/data/photo/2022/01/21/61ea314112848.jpg
-564,180,5,5,32,Kue Talam ,"https://cdn.yummy.co.id/content-images/images/20220319/ZDxMHnPOfZAq6tXHCLa9WsgeVwHh5Wb2-31363437363439303336d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/format,webp"
-565,512,26,26,60.4,Kue Tambang ,https://asset.kompas.com/crops/x2yGurVUxpP-COxvvOjVx2P7lL0=/100x67:900x600/750x500/data/photo/2022/04/14/62578f6fbc8b8.jpg
-566,166.3,2.7,3.9,29.5,Laksa ,https://asset.kompas.com/crops/cmvexYXhxB1oyebUTtLncpQTxNE=/256x116:1280x798/750x500/data/photo/2022/10/11/63455e3290f0e.jpg
-567,221.3,3.8,3.6,43.4,Lemper ,https://awsimages.detik.net.id/community/media/visual/2022/03/30/resep-lemper-ayam_43.jpeg?w=1200
-568,240,7.8,0.5,51.3,Leupeut Ketan ,https://sweetrip.id/wp-content/uploads/2021/05/171584083_119493940234318_4941248120678130162_n.jpg
-569,163.3,2.8,2.2,33,Lopis ,https://img-global.cpcdn.com/recipes/08285e540251b661/680x482cq70/lupislopis-ketan-pandan-ala-chef-muhammad-foto-resep-utama.jpg
-570,265.3,4.7,5.5,49.3,Martabak  ,https://tasteofnusa.com/wp-content/uploads/2022/03/martabak-manis-12-720x720.jpg
-571,200,8.9,5.1,29.5,Martabak Telur ,https://www.masakapahariini.com/wp-content/uploads/2020/10/Martabak-Telor-Bayam.jpg
-572,468,7.6,20.4,62.4,Mie Goreng ,https://kbu-cdn.com/dk/wp-content/uploads/mie-goreng-korea.jpg
-573,218,0.8,16,50.2,Misro ,https://resepkoki.id/wp-content/uploads/2016/03/Resep-Misro.jpg
-574,276,3.2,3.2,30.2,Nasi Goreng ,https://asset.kompas.com/crops/2RnTJZK6E9ABjS_1qmItNjI1hls=/0x0:5760x3840/750x500/data/photo/2023/02/14/63eb12fb840da.jpg
-575,253.3,4.3,21,11.7,Nasi Uduk ,https://img.kurio.network/P1Obhh7cenTadrAZ6Hc_XPjaVws=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/09/01/53606332-ec0c-478c-add9-78815b5cc658.jpe
-576,600,14,41.7,42,Noga Kacang Tanah ,https://t-2.tstatic.net/priangan/foto/bank/images/Noga-Suuk.jpg
-577,363.3,19.3,19.3,40.3,Oncom Goreng ,https://t-2.tstatic.net/medan/foto/bank/images/Resep-Oncom-Goreng-Tepung.jpg
-578,284,12,14.4,13.6,Oncom Hitam Goreng ,https://images.tokopedia.net/img/cache/700/product-1/2019/10/10/79282965/79282965_4a911ce8-9d69-4db9-98c3-9efe78d49d24_724_724
-579,306.7,9,18,27,Oncom Hitam Goreng bertepung ,https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/07/19/2363852219.png
-580,368,6.8,32,13.2,Oncom Merah Goreng ,https://asset.kompas.com/crops/h4_WZ8GncmYCpLRv-hrfwyr0_AQ=/0x0:1000x667/750x500/data/photo/2020/08/04/5f295a4cc469c.jpg
-581,320,7.3,18.7,31,Oncom Merah Goreng bertepung ,https://kbu-cdn.com/dk/wp-content/uploads/oncom-goreng.jpg
-582,40,2,2,3,Oncom Merah Sayur (tumis) ,https://cdn.idntimes.com/content-images/community/2022/02/img-20220215-221041-46e2f5aecb68d33317c733fcbbadfb19-3b67f78530f06dc0bb76ba7e4c795a5a_600x400.jpg
-583,288.6,8.3,8.9,44.3,Onde-onde ,https://www.masakapahariini.com/wp-content/uploads/2020/10/resep-onde-onde.jpg
-584,115,1.5,6,14,Ongol-ongol ,https://blog.tokowahab.com/wp-content/uploads/2020/01/Resep-Ongol-Ongol.jpg
-585,940,36,42,104,Opak Singkong ,https://cf.shopee.co.id/file/f10cd2d5ad4812daf630547293706737
-586,133.8,3,1.6,27,Papais ,https://cdn-brilio-net.akamaized.net/news/2022/02/15/222989/1667876-1000xauto-resep-papais-pisang.jpg
-587,222.2,5.8,17.1,34.9,Pastel ,https://kurio-img.kurioapps.com/21/11/15/bd500302-315a-48b6-9185-4912b331dc93.jpe
-588,400,0,0,95,Permen ,https://cdn1-production-images-kly.akamaized.net/7v14RDPh4Yi0jn8yPsIj4cl2YyQ=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2054451/original/070398300_1522833158-iStock-153502589.jpg
-589,514,1,27.8,647,Pilus ,https://asset.kompas.com/crops/S7g9b7Wq4I4Ut3RoExzI7yd2mL4=/0x0:1000x667/750x500/data/photo/2021/12/10/61b2aa4cbd1f3.jpg
-590,220,2.3,2.3,6.3,Pisang Goreng ,https://awsimages.detik.net.id/community/media/visual/2022/06/28/resep-pisang-goreng-keriting_43.jpeg?w=1200
-591,210,3,6,37,Putu ,https://kurio-img.kurioapps.com/21/12/02/b4a1e586-9dcb-4256-95e3-ff6299fc3cfc.jpe
-592,200,1,2.4,43.8,Putu Mayang ,https://awsimages.detik.net.id/community/media/visual/2022/05/12/resep-putu-mayang-betawi_43.jpeg?w=1200
-593,295,7.3,8.5,47.5,Rarawuan ,https://1.bp.blogspot.com/-0ER95zwTjoo/YOHlYJOtQCI/AAAAAAAAgJ0/d2OeMsWXfuAm2YimGXpKX5OVJqYEqoXpwCLcBGAsYHQ/s1352/209813966_330785408583521_6848659010339177574_n.jpg
-594,335,5.3,3.5,70.5,Risoles ,https://rasabunda.com/wp-content/uploads/2021/08/Risoles-Ragout.jpg
-595,350,7.5,2,75.5,Roti Gambang ,https://cdn0-production-images-kly.akamaized.net/TR6XRCpau_4ik-E3GDzTng6DDnU=/0x300:4496x2834/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3573373/original/099205200_1631765412-shutterstock_1786072643.jpg
-596,338,0.6,0.3,83.1,Sagu Ambon ,https://akcdn.detik.net.id/community/media/visual/2019/05/23/5d8019b4-a99b-4aea-a6e1-96be21f8e194_43.jpeg?w=250&q=
-597,110,15.5,0.5,11.5,Sate Kulit ,https://img.qraved.co/v2/image/data/over-1530587392136-x.png
-598,126.7,14,7.3,1.3,Sate Usus ,https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/03/17/92418359.jpeg
-599,192.5,4.5,6,30.3,Semur Jengkol ,https://assets.pikiran-rakyat.com/crop/0x135:1080x1215/x/photo/2020/11/25/1187166638.jpg
-600,285,1,18,28,Singkong Goreng ,https://sweetrip.id/wp-content/uploads/2022/04/singkong.jpeg
-601,95.3,4.4,2.2,14.4,Siomay ,https://awsimages.detik.net.id/community/media/visual/2021/11/17/resep-siomay-ayan-jamur_43.jpeg?w=1200
+551,46.7,17.3,17.3,81.3,"Kerupuk Sayong ",https://filebroker-cdn.lazada.co.id/kf/S92719a0bfec8443981796f166617e6eav.jpg
+552,340,30,30,52,"Kerupuk Udang ",https://cdn0-production-images-kly.akamaized.net/ihQHCeKhKldhY8YlTDkiu0ObeqE=/261x0:928x667/1200x900/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3265798/original/012419700_1602564070-shutterstock_1736290877.jpg
+553,340,11,11,54,"Ketapang ",https://cdn0-production-images-kly.akamaized.net/bEFvWpDkZsFCndvlKQ2liamvXwM=/0x287:3046x2004/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3989958/original/069432700_1649474910-biji_ketapang.jpg
+554,109.6,2.6,2.6,18.6,"Ketupat Tahu ",https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/06/09/resep-kupat-tahu-menu-sarapan-n-20210609032448.jpg
+555,542,40.3,42.4,11.5,"Kripik Tempe Goreng ",https://asset.kompas.com/crops/NvawKpjCGV6FrehArD0C-OBjYSI=/3x0:700x465/750x500/data/photo/2020/12/01/5fc629934653a.jpg
+556,186.7,1.6,1.6,39.6,"Kue Apem ",https://cdn0-production-images-kly.akamaized.net/1vXhapwViv08dtFYbhhKKEfqiJ0=/0x542:4608x3139/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3479555/original/004272600_1623394884-shutterstock_1952418853.jpg
+557,240,1,4,54,"Kue Bugis ",https://asset.kompas.com/crops/hHVyMg5BiDHITqTbKdbpz1Un4_c=/0x0:1000x667/750x500/data/photo/2022/06/21/62b109f77f78c.jpeg
+558,366,4.2,4.3,7.9,"Kue Koya ",https://media.karousell.com/media/photos/products/2018/08/23/koya_kacang_suuk_asli_bandung_1535029115_863b9a71_progressive.jpg
+559,182,1,1,40.4,"Kue mangkok ",https://asset.kompas.com/crops/EUNcgQqWtMLzjyycRK-jWqJPg5Q=/3x0:700x465/750x500/data/photo/2021/01/13/5ffe348f5e49a.jpg
+560,126.7,0.7,0.7,57.3,"Kue Pacar Cina ",https://asset.kompas.com/crops/jkimxsmqIcyNJ_UjeHGJML9sT_4=/0x0:698x465/750x500/data/photo/2021/02/20/603069ab80f59.jpg
+561,296,1.4,1.4,66.4,"Kue Pia ",https://www.resepkuerenyah.com/wp-content/uploads/2015/05/Resep-Kue-Pia-Kacang-Hijau.jpg
+562,393.3,2.7,2.7,79.3,"Kue Satu ",https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kue_satu_2.JPG/640px-Kue_satu_2.JPG
+563,380,1,1,92,"Kue Semprong ",https://asset.kompas.com/crops/jT3TeOZw6jjDRXgh1-P9Yrz0enI=/0x0:1000x667/750x500/data/photo/2022/01/21/61ea314112848.jpg
+564,180,5,5,32,"Kue Talam ","https://cdn.yummy.co.id/content-images/images/20220319/ZDxMHnPOfZAq6tXHCLa9WsgeVwHh5Wb2-31363437363439303336d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/format,webp"
+565,512,26,26,60.4,"Kue Tambang ",https://asset.kompas.com/crops/x2yGurVUxpP-COxvvOjVx2P7lL0=/100x67:900x600/750x500/data/photo/2022/04/14/62578f6fbc8b8.jpg
+566,166.3,2.7,3.9,29.5,"Laksa ",https://asset.kompas.com/crops/cmvexYXhxB1oyebUTtLncpQTxNE=/256x116:1280x798/750x500/data/photo/2022/10/11/63455e3290f0e.jpg
+567,221.3,3.8,3.6,43.4,"Lemper ",https://awsimages.detik.net.id/community/media/visual/2022/03/30/resep-lemper-ayam_43.jpeg?w=1200
+568,240,7.8,0.5,51.3,"Leupeut Ketan ",https://sweetrip.id/wp-content/uploads/2021/05/171584083_119493940234318_4941248120678130162_n.jpg
+569,163.3,2.8,2.2,33,"Lopis ",https://img-global.cpcdn.com/recipes/08285e540251b661/680x482cq70/lupislopis-ketan-pandan-ala-chef-muhammad-foto-resep-utama.jpg
+570,265.3,4.7,5.5,49.3,"Martabak  ",https://tasteofnusa.com/wp-content/uploads/2022/03/martabak-manis-12-720x720.jpg
+571,200,8.9,5.1,29.5,"Martabak Telur ",https://www.masakapahariini.com/wp-content/uploads/2020/10/Martabak-Telor-Bayam.jpg
+572,468,7.6,20.4,62.4,"Mie Goreng ",https://kbu-cdn.com/dk/wp-content/uploads/mie-goreng-korea.jpg
+573,218,0.8,16,50.2,"Misro ",https://resepkoki.id/wp-content/uploads/2016/03/Resep-Misro.jpg
+574,276,3.2,3.2,30.2,"Nasi Goreng ",https://asset.kompas.com/crops/2RnTJZK6E9ABjS_1qmItNjI1hls=/0x0:5760x3840/750x500/data/photo/2023/02/14/63eb12fb840da.jpg
+575,253.3,4.3,21,11.7,"Nasi Uduk ",https://img.kurio.network/P1Obhh7cenTadrAZ6Hc_XPjaVws=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/09/01/53606332-ec0c-478c-add9-78815b5cc658.jpe
+576,600,14,41.7,42,"Noga Kacang Tanah ",https://t-2.tstatic.net/priangan/foto/bank/images/Noga-Suuk.jpg
+577,363.3,19.3,19.3,40.3,"Oncom Goreng ",https://t-2.tstatic.net/medan/foto/bank/images/Resep-Oncom-Goreng-Tepung.jpg
+578,284,12,14.4,13.6,"Oncom Hitam Goreng ",https://images.tokopedia.net/img/cache/700/product-1/2019/10/10/79282965/79282965_4a911ce8-9d69-4db9-98c3-9efe78d49d24_724_724
+579,306.7,9,18,27,"Oncom Hitam Goreng bertepung ",https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/07/19/2363852219.png
+580,368,6.8,32,13.2,"Oncom Merah Goreng ",https://asset.kompas.com/crops/h4_WZ8GncmYCpLRv-hrfwyr0_AQ=/0x0:1000x667/750x500/data/photo/2020/08/04/5f295a4cc469c.jpg
+581,320,7.3,18.7,31,"Oncom Merah Goreng bertepung ",https://kbu-cdn.com/dk/wp-content/uploads/oncom-goreng.jpg
+582,40,2,2,3,"Oncom Merah Sayur (tumis) ",https://cdn.idntimes.com/content-images/community/2022/02/img-20220215-221041-46e2f5aecb68d33317c733fcbbadfb19-3b67f78530f06dc0bb76ba7e4c795a5a_600x400.jpg
+583,288.6,8.3,8.9,44.3,"Onde-onde ",https://www.masakapahariini.com/wp-content/uploads/2020/10/resep-onde-onde.jpg
+584,115,1.5,6,14,"Ongol-ongol ",https://blog.tokowahab.com/wp-content/uploads/2020/01/Resep-Ongol-Ongol.jpg
+585,940,36,42,104,"Opak Singkong ",https://cf.shopee.co.id/file/f10cd2d5ad4812daf630547293706737
+586,133.8,3,1.6,27,"Papais ",https://cdn-brilio-net.akamaized.net/news/2022/02/15/222989/1667876-1000xauto-resep-papais-pisang.jpg
+587,222.2,5.8,17.1,34.9,"Pastel ",https://kurio-img.kurioapps.com/21/11/15/bd500302-315a-48b6-9185-4912b331dc93.jpe
+588,400,0,0,95,"Permen ",https://cdn1-production-images-kly.akamaized.net/7v14RDPh4Yi0jn8yPsIj4cl2YyQ=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2054451/original/070398300_1522833158-iStock-153502589.jpg
+589,514,1,27.8,647,"Pilus ",https://asset.kompas.com/crops/S7g9b7Wq4I4Ut3RoExzI7yd2mL4=/0x0:1000x667/750x500/data/photo/2021/12/10/61b2aa4cbd1f3.jpg
+590,220,2.3,2.3,6.3,"Pisang Goreng ",https://awsimages.detik.net.id/community/media/visual/2022/06/28/resep-pisang-goreng-keriting_43.jpeg?w=1200
+591,210,3,6,37,"Putu ",https://kurio-img.kurioapps.com/21/12/02/b4a1e586-9dcb-4256-95e3-ff6299fc3cfc.jpe
+592,200,1,2.4,43.8,"Putu Mayang ",https://awsimages.detik.net.id/community/media/visual/2022/05/12/resep-putu-mayang-betawi_43.jpeg?w=1200
+593,295,7.3,8.5,47.5,"Rarawuan ",https://1.bp.blogspot.com/-0ER95zwTjoo/YOHlYJOtQCI/AAAAAAAAgJ0/d2OeMsWXfuAm2YimGXpKX5OVJqYEqoXpwCLcBGAsYHQ/s1352/209813966_330785408583521_6848659010339177574_n.jpg
+594,335,5.3,3.5,70.5,"Risoles ",https://rasabunda.com/wp-content/uploads/2021/08/Risoles-Ragout.jpg
+595,350,7.5,2,75.5,"Roti Gambang ",https://cdn0-production-images-kly.akamaized.net/TR6XRCpau_4ik-E3GDzTng6DDnU=/0x300:4496x2834/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3573373/original/099205200_1631765412-shutterstock_1786072643.jpg
+596,338,0.6,0.3,83.1,"Sagu Ambon ",https://akcdn.detik.net.id/community/media/visual/2019/05/23/5d8019b4-a99b-4aea-a6e1-96be21f8e194_43.jpeg?w=250&q=
+597,110,15.5,0.5,11.5,"Sate Kulit ",https://img.qraved.co/v2/image/data/over-1530587392136-x.png
+598,126.7,14,7.3,1.3,"Sate Usus ",https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/03/17/92418359.jpeg
+599,192.5,4.5,6,30.3,"Semur Jengkol ",https://assets.pikiran-rakyat.com/crop/0x135:1080x1215/x/photo/2020/11/25/1187166638.jpg
+600,285,1,18,28,"Singkong Goreng ",https://sweetrip.id/wp-content/uploads/2022/04/singkong.jpeg
+601,95.3,4.4,2.2,14.4,"Siomay ",https://awsimages.detik.net.id/community/media/visual/2021/11/17/resep-siomay-ayan-jamur_43.jpeg?w=1200
 602,127.5,2.6,9.4,8.3,Soto dengan Daging,https://img.kurio.network/mjtADdO0Q-nnAohGaTqVBvp8rMc=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/03/01/0bfa7a3d-28f6-440f-907b-def23ccb96d9.jpe
-603,117.1,0.4,8.6,9.6,Soto tanpa Daging ,https://resepkoki.id/wp-content/uploads/2019/11/Soto-Ayam-Bening.jpg
-604,128,5.6,11.2,1.2,Tahu Goreng ,"https://cdn.yummy.co.id/content-images/images/20221230/n8yT9kDhMU5FbWDRL36WlELdLsYMFymn-31363732333836373933d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/format,webp"
-605,328,18.4,23.2,12.8,Tempe Goreng ,https://asset.kompas.com/crops/tnGS6LHPv4vxzDYTS-JJdLXBrjo=/0x41:1000x708/1200x800/data/photo/2020/04/01/5e841eccea33c.jpg
-606,240,6,2.7,49.3,Tempe Sayur ,https://fibercreme.com/wp-content/uploads/2021/05/tempe-lombok-ijo-santan_.jpg
-607,93.6,4.4,1.8,15.1,Toge Goreng ,https://akcdn.detik.net.id/community/media/visual/2019/04/22/de16ca5c-a9d9-4197-a567-b818b1d59d94.jpeg?w=1208
-608,160,3.7,1.3,55.3,Ubi Jalar Goreng ,https://resepkoki.id/wp-content/uploads/2022/03/Resep-Ubi-Goreng.jpg
-609,113.8,1.4,9.5,25.5,Ubi Jalar Rebus ,https://asset.kompas.com/crops/T0MCh-MlaSRzF13qAlQAOXcYncE=/0x0:1000x667/750x500/data/photo/2022/02/05/61fe25192121f.jpg
-610,183.3,1.3,0.3,22.5,Ubi Jalar Sayur ,https://i.ytimg.com/vi/B6SI1lJ4oOE/maxresdefault.jpg
+603,117.1,0.4,8.6,9.6,"Soto tanpa Daging ",https://resepkoki.id/wp-content/uploads/2019/11/Soto-Ayam-Bening.jpg
+604,128,5.6,11.2,1.2,"Tahu Goreng ","https://cdn.yummy.co.id/content-images/images/20221230/n8yT9kDhMU5FbWDRL36WlELdLsYMFymn-31363732333836373933d41d8cd98f00b204e9800998ecf8427e.jpg?x-oss-process=image/format,webp"
+605,328,18.4,23.2,12.8,"Tempe Goreng ",https://asset.kompas.com/crops/tnGS6LHPv4vxzDYTS-JJdLXBrjo=/0x41:1000x708/1200x800/data/photo/2020/04/01/5e841eccea33c.jpg
+606,240,6,2.7,49.3,"Tempe Sayur ",https://fibercreme.com/wp-content/uploads/2021/05/tempe-lombok-ijo-santan_.jpg
+607,93.6,4.4,1.8,15.1,"Toge Goreng ",https://akcdn.detik.net.id/community/media/visual/2019/04/22/de16ca5c-a9d9-4197-a567-b818b1d59d94.jpeg?w=1208
+608,160,3.7,1.3,55.3,"Ubi Jalar Goreng ",https://resepkoki.id/wp-content/uploads/2022/03/Resep-Ubi-Goreng.jpg
+609,113.8,1.4,9.5,25.5,"Ubi Jalar Rebus ",https://asset.kompas.com/crops/T0MCh-MlaSRzF13qAlQAOXcYncE=/0x0:1000x667/750x500/data/photo/2022/02/05/61fe25192121f.jpg
+610,183.3,1.3,0.3,22.5,"Ubi Jalar Sayur ",https://i.ytimg.com/vi/B6SI1lJ4oOE/maxresdefault.jpg
 611,357,8.4,1.7,77.1,Beras giling mentah,https://id-test-11.slatic.net/p/f39461bcbf996f071c0e206b97d62889.jpg
 612,369,9.5,1.4,77.1,Beras giling var pelita mentah,https://rottebakery.com/wp-content/uploads/2022/06/white-rice-flour-small-bowl-with-rice-plant.jpg
 613,357,8.4,1.7,77.1,Beras giling var rojolele mentah,https://s0.bukalapak.com/img/06431812631/large/BERAS_ROJOLELE_25KG.png
@@ -820,7 +820,7 @@ Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
 819,363,1.1,0.5,88.2,Tepung singkong/ Tapioka,https://jakarta.akurat.co/storage/2023/05/tentang-tepung-tapioka.jpg
 820,332,5.7,0.6,76.1,Tepung Tales Beneng,https://i0.wp.com/technology-indonesia.com/wp-content/uploads/2021/07/INFO-TEPUNG-TALAS.jpg?resize=700%2C544
 821,354,2.8,0.6,84.4,Tepung Ubi Ungu,https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//88/MTA-24103752/no_brand_tepung_organik_tepung_ubi_ungu_100gr_bubur_bayi_sehat_organic_rice_flour_murah_full01_r3k7h2n1.jpg
-822,353,2.4,1.1,83.4,Tiwul  ,https://asset.kompas.com/crops/_Lav4KVP5NTBM2GTsDVtTxgCx08=/70x0:914x563/750x500/data/photo/2021/12/03/61a9f9d558fc0.jpg
+822,353,2.4,1.1,83.4,"Tiwul  ",https://asset.kompas.com/crops/_Lav4KVP5NTBM2GTsDVtTxgCx08=/70x0:914x563/750x500/data/photo/2021/12/03/61a9f9d558fc0.jpg
 823,395,3.2,8.5,76.5,Tiwul Instan,https://grebeg.com/images/media/2020/11/large1606391454Nk2Sa26711.jpg
 824,186,1.9,0.2,44.3,Ubi Cilembu,https://assets-a1.kompasiana.com/items/album/2021/11/11/img-20211111-wa0043-618cbcd606310e41062eaf72.jpg
 825,330,23.8,1.4,60.2,Kacang arab kering,https://res.cloudinary.com/dk0z4ums3/image/upload/v1603458791/attached_image/jangan-lewatkan-segudang-manfaat-kacang-arab-ini.jpg
@@ -1213,7 +1213,7 @@ Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
 1212,49,0.7,0.2,11.1,Jeruk ragi segar,https://images.tokopedia.net/img/cache/250-square/hDjmkQ/2021/1/3/2de49603-36db-48fc-9749-df7946340f62.png
 1213,120,3.5,2.5,20.8,Kawista segar,https://cf.shopee.co.id/file/293d8f06ecc4a6b0022b24dbc2230d06_tn
 1214,46,1,0.1,10.3,Kedondong masak segar,https://1.bp.blogspot.com/-0hyywivAvi0/XR7haJMeo-I/AAAAAAAAI48/QokWTHumbJ4jsr5AgBhRUZ6DBTw1614lQCLcBGAs/w1200-h630-p-k-no-nu/manisan%2Bkedondong%2Bnurul%2Bhidayah%2B%2528www.nurulhdayah.com%2529.jpg
-1215,47,0.5,0.2,10.4,Kedondong segar ,https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/12/4/5329d842-9637-48e3-9d33-eb653a5d9f88.jpg
+1215,47,0.5,0.2,10.4,"Kedondong segar ",https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/12/4/5329d842-9637-48e3-9d33-eb653a5d9f88.jpg
 1216,623,2,52.1,36.5,Kelapa hutan kering,https://cf.shopee.co.id/file/b744bbf5c824fbcba58e1aeff62b2e8f
 1217,68,1,0.9,14,Kelapa muda daging segar,"https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1526863836/la3ytjnmpxthmloiwszx.jpg"
 1218,48,1,0.2,11.9,Kemang segar,https://www.daya.id/01%20Tips%20-%20Info%20Terkini/Kesehatan/2021/2021%20-%2009/00%20Krona%20-%20Mei/57.%205%20Manfaat%20Buah%20Kemang%20dan%20Cara%20Mengkonsumsinya/shutterstock_1017571780.jpg
@@ -1246,7 +1246,7 @@ Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
 1245,108,1,0.8,24.3,Pisang ambon segar,https://images.tokopedia.net/img/cache/700/VqbcmM/2022/5/24/2723c72f-e00a-4862-b558-1c99915d36c0.jpg
 1246,68,1.3,0.2,17.2,Pisang angleng (pisang ampyang) segar,https://images.tokopedia.net/img/cache/700/VqbcmM/2022/3/13/917dcae7-a629-441a-80e0-ef57db2d5d86.jpg.webp
 1247,120,1.1,0.2,26.8,Pisang ayam segar,https://assets.tokko.io/0feaf09b-2761-465e-98df-a8ae8e3d0837/products/images/9239a74b-b3ba-43b0-8368-88ae7940ff5e
-1248,127,2.1,0.3,31.1,Pisang gapi segar ,https://img.mbizmarket.co.id/products/thumbs/800x800/2023/01/20/befd74e59c6a52a52770d9f79cfd83e5.jpg
+1248,127,2.1,0.3,31.1,"Pisang gapi segar ",https://img.mbizmarket.co.id/products/thumbs/800x800/2023/01/20/befd74e59c6a52a52770d9f79cfd83e5.jpg
 1249,115,1.9,0.2,27.9,Pisang goroho segar,https://cf.shopee.co.id/file/c7e52955f5ce99a5e9b08f9415d26813
 1250,117,2,0.3,28.9,Pisang hijau segar,https://riaureview.com/assets/berita/original/84297374449-pisang_hiaju.jpg
 1251,100,1.4,0.5,23.6,Pisang kayu segar,https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/8/10/869aef02-92ce-44ce-acc0-01ab37f8af93.jpg
@@ -1254,7 +1254,7 @@ Id,Energi,Protein,Lemak,Karbohidrat,Nama Pangan,Gambar
 1253,145,1.1,0.3,34.5,Pisang ketip segar,https://siplah-oss.tokoladang.co.id/merchant/14629/product/Se7OPSmd9MOoEDAanTZ1AHI66EJfLxZxCi39Jzh9.jpg
 1254,96,1,0.2,22.5,Pisang kidang segar,"https://s3.theasianparent.com/cdn-cgi/image/width=450,quality=90/tap-assets-prod/wp-content/uploads/sites/24/2023/01/Pisang-Genderuwo.jpg"
 1255,99,1.3,0.2,25.6,Pisang lampung segar,https://sesa.id/media/catalog/product/p/i/pisang-lampung-2-web_1.jpg
-1256,92,1.4,0.2,21,Pisang mas bali ampenan segar ,https://siplahtelkom.com/public/products/124427/3079678/images-48-.1637576152.jpeg
+1256,92,1.4,0.2,21,"Pisang mas bali ampenan segar ",https://siplahtelkom.com/public/products/124427/3079678/images-48-.1637576152.jpeg
 1257,127,1.4,0.2,31.8,Pisang mas bali kopang segar,https://siplahtelkom.com/public/products/124427/3079678/images-48-.1637576152.jpeg
 1258,127,1.4,0.2,33.6,Pisang mas segar,https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-14247079/no_brand_pisang_emas_pisang_mas_buah_segar_banana_fresh_fruit_1_sisir_full01_b0ylgrn6.jpg
 1259,108,1.3,0.3,28.2,Pisang raja sereh segar,https://klikhijau.com/wp-content/uploads/2022/06/Pisang-raja-sereh.jpg
