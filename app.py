@@ -37,9 +37,9 @@ def advpredict():
     predict_data = data[['energi', 'protein', 'lemak', 'karbohidrat']]
 
     similarity = cosine_similarity(predict_data, numeric_gizi)
-    # Get top 6 similarity
-    top6 = np.argsort(similarity, axis=1)[0][::-1][:6] 
-    recommended = gizi.iloc[top6][output_col]
+    # Get top 10 similarity
+    top10 = np.argsort(similarity, axis=1)[0][::-1][:10] 
+    recommended = gizi.iloc[top10][output_col]
     dict_recom = recommended.to_dict('records')
 
     return jsonify({'data':dict_recom})
