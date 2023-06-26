@@ -1,4 +1,4 @@
-id,energi,protein,lemak,karbohidrat,nama,gambar
+id_food,energi,protein,lemak,karbohidrat,nama,gambar
 1,280,9.2,28.4,0,Abon,https://img-cdn.medkomtek.com/PbrY9X3ignQ8sVuj_LU9UXljyew=/0x0/smart/filters:quality(75):strip_icc():format(webp)/article/7g8ceHGDNMuttlBcXEl8d/original/099726800_1605161502-Mana-yang-Lebih-Sehat-Abon-Sapi-atau-Abon-Ayam-shutterstock_1361446550.jpg
 2,513,23.7,37,21.3,Abon haruwan,https://img-global.cpcdn.com/recipes/cbf330fbd1ba6316/1200x630cq70/photo.jpg
 3,0,0,0.2,0,Agar-agar,https://res.cloudinary.com/dk0z4ums3/image/upload/v1644389489/attached_image/manfaat-agar-agar-untuk-tubuh.jpg
